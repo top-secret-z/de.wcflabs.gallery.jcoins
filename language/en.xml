@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="en" languagename="English" countrycode="en">
-	<category name="wcf.jcoins.statement">
-		<item name="wcf.jcoins.statement.title.de.wcflabs.jcoins.statement.image"><![CDATA[Image/Video]]></item>
-		<item name="wcf.jcoins.statement.title.retractable.de.wcflabs.jcoins.statement.image"><![CDATA[Image/video deleted]]></item>
-		<item name="wcf.jcoins.statement.reason.de.wcflabs.jcoins.statement.image"><![CDATA[{if $statement->getObject()->getTitle()}Your image/video „{$statement->getObject()->getTitle()}“ was published.{else}An image/video of yours was published, which was deleted in the meantime.{/if}]]></item>
-		<item name="wcf.jcoins.statement.reason.reverse.de.wcflabs.jcoins.statement.image"><![CDATA[{if $statement->getObject()->getTitle()}Your image/video „{$statement->getObject()->getTitle()}“ was trashed or disabled.{else}An image/video of yours was deleted.{/if}]]></item>
-		
-		<item name="wcf.jcoins.statement.title.de.wcflabs.jcoins.statement.album"><![CDATA[Album]]></item>
-		<item name="wcf.jcoins.statement.title.retractable.de.wcflabs.jcoins.statement.album"><![CDATA[Album deleted]]></item>
-		<item name="wcf.jcoins.statement.reason.de.wcflabs.jcoins.statement.album"><![CDATA[{if $statement->getObject()->getTitle()}You started the album “{$statement->getObject()->getTitle()}”.{else}You started an album, which was deleted in the meantime.{/if}]]></item>
-		<item name="wcf.jcoins.statement.reason.reverse.de.wcflabs.jcoins.statement.album"><![CDATA[An album of yours was deleted.]]></item>
-		
-		<!-- wcf.jcoins.statement.category -->
-		<item name="wcf.jcoins.statement.category.de.wcflabs.jcoins.gallery"><![CDATA[WoltLab Suite Gallery]]></item>
-	</category>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com https://www.woltlab.com/XSD/2019/language.xsd" languagecode="en" languagename="English" countrycode="en">
+    <category name="wcf.jcoins.statement">
+        <item name="wcf.jcoins.statement.title.de.wcflabs.jcoins.statement.image"><![CDATA[Image/Video]]></item>
+        <item name="wcf.jcoins.statement.title.retractable.de.wcflabs.jcoins.statement.image"><![CDATA[Image/video deleted]]></item>
+        <item name="wcf.jcoins.statement.reason.de.wcflabs.jcoins.statement.image"><![CDATA[{if $statement->getObject()->getTitle()}Your image/video „{$statement->getObject()->getTitle()}“ was published.{else}An image/video of yours was published, which was deleted in the meantime.{/if}]]></item>
+        <item name="wcf.jcoins.statement.reason.reverse.de.wcflabs.jcoins.statement.image"><![CDATA[{if $statement->getObject()->getTitle()}Your image/video „{$statement->getObject()->getTitle()}“ was trashed or disabled.{else}An image/video of yours was deleted.{/if}]]></item>
+
+        <item name="wcf.jcoins.statement.title.de.wcflabs.jcoins.statement.album"><![CDATA[Album]]></item>
+        <item name="wcf.jcoins.statement.title.retractable.de.wcflabs.jcoins.statement.album"><![CDATA[Album deleted]]></item>
+        <item name="wcf.jcoins.statement.reason.de.wcflabs.jcoins.statement.album"><![CDATA[{if $statement->getObject()->getTitle()}You started the album “{$statement->getObject()->getTitle()}”.{else}You started an album, which was deleted in the meantime.{/if}]]></item>
+        <item name="wcf.jcoins.statement.reason.reverse.de.wcflabs.jcoins.statement.album"><![CDATA[An album of yours was deleted.]]></item>
+
+        <!-- wcf.jcoins.statement.category -->
+        <item name="wcf.jcoins.statement.category.de.wcflabs.jcoins.gallery"><![CDATA[WoltLab Suite Gallery]]></item>
+    </category>
 </language>
